@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(f'{os.getcwd()}')
+
 import requests
 
 from CONSTANTS import BASE_URL

@@ -1,6 +1,10 @@
+import sys
+import os
+sys.path.append(f'{os.getcwd()}')
+
 import requests
 
-from CONSTANTS import BASE_URL
+from .CONSTANTS import BASE_URL
 
 def get_weather(city: str) -> dict:
     response = requests.get(BASE_URL + f'q={city}')
