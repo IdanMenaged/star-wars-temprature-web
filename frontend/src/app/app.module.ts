@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './background/background.component';
+import { TempDisplayComponent } from './temp-display/temp-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    TempDisplayComponent
   ],
   imports: [
     BrowserModule,
