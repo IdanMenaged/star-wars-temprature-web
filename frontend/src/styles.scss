@@ -35,5 +35,19 @@ $frontend-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// html, body {
+//   height: 100%;
+// }
+
+@font-face {
+  font-family: 'STAR WARS';
+  src: url('./assets/fonts/starwars/starjedi/Starjedi.ttf');
+  // one of 4 fonts available. to change swap the url
+  // options at https://www.dafont.com/star-jedi.font
+}
+
+body {
+  margin: 0;
+  font-family: 'STAR WARS', Roboto, "Helvetica Neue", sans-serif;
+  background-image: url('./assets/planets/Alderaan.jpg');
+}
